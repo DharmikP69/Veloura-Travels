@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dharmikp69.github.io/Veloura-travels/sitemap.xml
