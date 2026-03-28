@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Veloura Travels — Discover the World</title>
+  <meta name="description"
+    content="Veloura Travels — Your trusted partner for luxury travel experiences across Asia, the Middle East, and Europe.">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Jost:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="index.html"><img src="image/logo.png" alt="Veloura Travels" height="45"
+        style="object-fit:contain;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link active-nav" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="destinations.html">Destinations</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="booknow.html">Book Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="heroCarousel" class="carousel slide" data-ride="carousel" data-interval="4500">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="image/thailand.jpg" alt="Thailand">
+        <div class="carousel-caption-custom">
+          <div class="badge-label fade-up">Featured Destination</div>
+          <h1 class="fade-up delay-1">Thailand<br>Beaches</h1>
+          <p class="fade-up delay-2">Crystal waters, golden temples & endless sunsets</p>
+          <div class="fade-up delay-3">
+            <a href="destinations.html" class="btn-gold mr-3">Explore Package</a>
+            <a href="booknow.html" class="btn-outline-gold">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="image/dubai.jpg" alt="Dubai">
+        <div class="carousel-caption-custom">
+          <div class="badge-label">Luxury Escape</div>
+          <h1>Dubai<br>Skyline</h1>
+          <p>Where modern architecture meets desert luxury</p>
+          <div>
+            <a href="destinations.html" class="btn-gold mr-3">Explore Package</a>
+            <a href="booknow.html" class="btn-outline-gold">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="image/paris.jpg" alt="Paris">
+        <div class="carousel-caption-custom">
+          <div class="badge-label">European Charm</div>
+          <h1>Paris,<br>France</h1>
+          <p>The city of lights, love, and timeless elegance</p>
+          <div>
+            <a href="destinations.html" class="btn-gold mr-3">Explore Package</a>
+            <a href="booknow.html" class="btn-outline-gold">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="image/bali.jpg" alt="Bali">
+        <div class="carousel-caption-custom">
+          <div class="badge-label">Asia Escape</div>
+          <h1>Bali,<br>Indonesia</h1>
+          <p>Tropical paradise of temples, rice fields & volcanos</p>
+          <div>
+            <a href="destinations.html" class="btn-gold mr-3">Explore Package</a>
+            <a href="booknow.html" class="btn-outline-gold">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+  <div class="stats-bar">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-3 stat-item">
+          <span class="stat-number">3K+</span>
+          <span class="stat-label">Happy Travellers</span>
+        </div>
+        <div class="col-6 col-md-3 stat-item">
+          <span class="stat-number">9</span>
+          <span class="stat-label">Destinations</span>
+        </div>
+        <div class="col-6 col-md-3 stat-item">
+          <span class="stat-number">95%</span>
+          <span class="stat-label">Satisfaction Rate</span>
+        </div>
+        <div class="col-6 col-md-3 stat-item">
+          <span class="stat-number">2</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="home-packages">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="text-uppercase" style="letter-spacing:3px;color:var(--gold);font-size:.8rem;font-weight:600;">Top
+          Picks</p>
+        <h2 class="section-title" style="display:block;">Featured Destinations</h2>
+        <p class="section-subtitle">Hand-picked experiences for the discerning traveller</p>
+      </div>
+      <div class="row" id="home-pkg-grid">
+
+      </div>
+      <div class="text-center mt-4">
+        <a href="destinations.html" class="btn-gold">View All Packages</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="why-us">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="text-uppercase" style="letter-spacing:3px;color:var(--gold);font-size:.8rem;font-weight:600;">Why
+          Veloura Travels</p>
+        <h2 class="section-title" style="display:block;color:#fff;">Crafted For Every Journey</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="why-card">
+            <div class="why-icon"><i class="fas fa-shield-alt"></i></div>
+            <h5>100% Safe Travel</h5>
+            <p>All packages include travel insurance, 24/7 support and verified accommodations.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="why-card">
+            <div class="why-icon"><i class="fas fa-tags"></i></div>
+            <h5>Best Price Guarantee</h5>
+            <p>We match any lower price you find within 48 hours of booking. No questions asked.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="why-card">
+            <div class="why-icon"><i class="fas fa-headset"></i></div>
+            <h5>24/7 Support</h5>
+            <p>Our dedicated travel concierge is available around the clock wherever you are.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="why-card">
+            <div class="why-icon"><i class="fas fa-map-marked-alt"></i></div>
+            <h5>Custom Itineraries</h5>
+            <p>Every trip is tailored to your preferences, pace, and bucket list.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="text-uppercase" style="letter-spacing:3px;color:var(--gold);font-size:.8rem;font-weight:600;">
+          Traveller Stories</p>
+        <h2 class="section-title" style="display:block;">What Our Guests Say</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>The Thailand package exceeded every expectation. From the Phi Phi Islands to Bangkok's street food —
+              Veloura Travels made it absolutely seamless.</p>
+            <span class="testi-author">Priya Mehta</span>
+            <span class="testi-loc d-block">Mumbai, India</span>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>Dubai was a dream trip — Burj Khalifa, desert safari, and the gold souk. Our agent was responsive and
+              everything was perfectly organised.</p>
+            <span class="testi-author">Rahul Shah</span>
+            <span class="testi-loc d-block">Ahmedabad, India</span>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>The Europe Grand Tour was worth every rupee. Eight cities in 14 days, beautiful hotels, and a guide who
+              truly knew the history.</p>
+            <span class="testi-author">Ananya Singh</span>
+            <span class="testi-loc d-block">Delhi, India</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- User-submitted reviews appear here -->
+      <div class="row" id="user-reviews"></div>
+
+      <!-- Share Your Experience Form -->
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-8">
+          <div class="review-form-card">
+            <div class="text-center mb-4">
+              <div class="review-form-icon"><i class="fas fa-pen-fancy"></i></div>
+              <h4>Share Your Experience</h4>
+              <p>Travelled with us? We'd love to hear about your journey!</p>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label class="form-label">Your Name *</label>
+                <input type="text" class="form-control" id="r-name" placeholder="e.g. Rahul Patel">
+              </div>
+              <div class="col-md-6 mb-3">
+                <label class="form-label">City *</label>
+                <input type="text" class="form-control" id="r-city" placeholder="e.g. Mumbai, India">
+              </div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Your Rating *</label>
+              <div class="star-rating" id="star-rating">
+                <span class="star-btn" data-value="1">★</span>
+                <span class="star-btn" data-value="2">★</span>
+                <span class="star-btn" data-value="3">★</span>
+                <span class="star-btn" data-value="4">★</span>
+                <span class="star-btn" data-value="5">★</span>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Your Experience *</label>
+              <textarea class="form-control" id="r-message" rows="3"
+                placeholder="Tell us about your favourite moments..."></textarea>
+            </div>
+            <button class="btn-gold" onclick="submitReview()">Submit Review &nbsp;<i
+                class="fas fa-paper-plane"></i></button>
+            <div class="review-success" id="review-success">
+              <i class="fas fa-check-circle mr-2"></i>
+              <strong>Thank you!</strong> Your review has been added below.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-md-4 mb-4">
+          <div class="footer-brand mb-3"><img src="image/logo.png" alt="Veloura Travels" height="45"
+              style="object-fit:contain;"></div>
+          <p>Your trusted partner for luxury travel experiences across Asia, the Middle East, and Europe. We craft
+            journeys that stay with you forever.</p>
+          <div class="footer-socials mt-3">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-md-2 col-6 mb-4">
+          <p class="footer-heading">Navigate</p>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="booknow.html">Book Now</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-6 mb-4">
+          <p class="footer-heading">Destinations</p>
+          <ul class="footer-links">
+            <li><a href="destinations.html">Thailand</a></li>
+            <li><a href="destinations.html">Bali, Indonesia</a></li>
+            <li><a href="destinations.html">Dubai, UAE</a></li>
+            <li><a href="destinations.html">Paris, France</a></li>
+            <li><a href="destinations.html">Rome, Italy</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-4">
+          <p class="footer-heading">Contact</p>
+          <p><i class="fas fa-map-marker-alt" style="color:var(--gold);margin-right:8px;"></i>14-15 Abhisek-1, Sudama
+            Chowk, Mota Varachha, Surat, Gujarat 395006</p>
+          <p><i class="fas fa-phone" style="color:var(--gold);margin-right:8px;"></i>+91 97734 18687</p>
+          <p><i class="fas fa-envelope" style="color:var(--gold);margin-right:8px;"></i>hello@velouratravels.in</p>
+        </div>
+      </div>
+      <div class="footer-bottom text-center">
+        <p>© 2025 Veloura Travels Co. All rights reserved. | Crafted with ❤️ for explorers.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="pkg-modal-overlay" id="pkgModal">
+    <div class="pkg-modal">
+      <button class="pkg-modal-close" onclick="closeModal()"><i class="fas fa-times"></i></button>
+      <img id="modal-img" src="" alt="">
+      <div class="pkg-modal-body">
+        <p id="modal-region"
+          style="font-size:.75rem;letter-spacing:2px;text-transform:uppercase;color:var(--gold);font-weight:700;"></p>
+        <h3 id="modal-name"></h3>
+        <div class="modal-detail-row">
+          <div class="modal-detail"><i class="fas fa-clock"></i><span id="modal-days"></span></div>
+          <div class="modal-detail"><i class="fas fa-plane"></i><span id="modal-dep"></span></div>
+          <div class="modal-detail"><i class="fas fa-rupee-sign"></i><span id="modal-price"></span></div>
+        </div>
+        <p id="modal-desc" style="color:var(--muted);font-size:.9rem;line-height:1.7;margin-top:.5rem;"></p>
+        <div class="modal-includes">
+          <h6>What's Included</h6>
+          <ul id="modal-includes" style="list-style:none;padding:0;"></ul>
+        </div>
+        <a href="booknow.html" class="btn-gold mt-3" onclick="closeModal()">Book This Package</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
