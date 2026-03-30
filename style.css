@@ -1059,6 +1059,21 @@ footer p {
   .carousel-caption-custom h1 {
     font-size: 2.2rem;
   }
+    .carousel-caption-custom p {
+    font-size: 0.95rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .carousel-caption-custom .btn-gold,
+  .carousel-caption-custom .btn-outline-gold {
+    display: block;
+    padding: 10px 24px;
+    font-size: 0.78rem;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto 10px auto !important;
+  }
+
 
   .about-img-badge {
     right: 0;
